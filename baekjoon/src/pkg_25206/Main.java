@@ -10,14 +10,15 @@ public class Main {
 		String[] myScore = new String[5];
 		double[] myGrade = new double[5];
 		
-		String subjectName;
+		// 주석 나중에 풀어줘 이거 오류 때메 해놈
+		// String subjectName;
 		double gradeValue;
 		String score;
 		
 		
 		for(int i = 0; i < definedGrade.length; i++) {
 				
-			subjectName = sc.next();
+			// subjectName = sc.next();
 			gradeValue = sc.nextDouble();
 			score = sc.next();
 			
