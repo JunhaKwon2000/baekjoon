@@ -34,6 +34,7 @@ public class Main {
 		int m = sc.nextInt();
 
 		q.func(h, m);
+		sc.close();
 	}
 
 }

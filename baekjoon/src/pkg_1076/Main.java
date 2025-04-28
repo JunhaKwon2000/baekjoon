@@ -26,6 +26,8 @@ public class Main {
 		
 		long target = (value1 * 10 + value2)*value3;
 		System.out.println(target);
+
+		sc.close();
 	}
 
 }

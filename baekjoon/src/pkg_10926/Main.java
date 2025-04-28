@@ -14,6 +14,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		String validId = sc.next();
 		System.out.println(q.func(validId));
+		sc.close();
 	}
 
 }

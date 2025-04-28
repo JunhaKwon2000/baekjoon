@@ -29,9 +29,9 @@ public class Main {
             
             System.out.println(changeQuarter + " " + changeDime + " " + changeNickel + " " + changePenny);
         }
-        
+        sc.close();
 		        
 		        
 		        
-		    }
+		}
 	}

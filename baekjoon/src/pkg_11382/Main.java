@@ -18,6 +18,7 @@ public class Main {
 		long c = sc.nextLong();
 		
 		System.out.println(q.func(a, b, c));
+		sc.close();
 		
 	}
 

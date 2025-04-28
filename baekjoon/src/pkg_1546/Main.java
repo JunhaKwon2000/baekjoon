@@ -29,7 +29,7 @@ public class Main {
 		
 		double average = totalSum / (double)numOfScore;
 		System.out.println(average);
-		
+		sc.close();
 		
 	}
 

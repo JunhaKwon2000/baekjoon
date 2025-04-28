@@ -88,7 +88,7 @@ public class Main {
 		else {
 			System.out.println(0);
 		}
-		
+		sc.close();
 	}
 
 }

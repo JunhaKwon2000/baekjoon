@@ -1,5 +1,4 @@
 package pkg_1193;
-import java.util.Scanner;
 
 class Q{
 	public long func(long x) {

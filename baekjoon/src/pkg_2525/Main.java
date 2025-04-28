@@ -42,7 +42,7 @@ public class Main {
 		int cookTime = sc.nextInt();
 
 		q.func(h, m, cookTime);
-
+		sc.close();
 	}
 
 }

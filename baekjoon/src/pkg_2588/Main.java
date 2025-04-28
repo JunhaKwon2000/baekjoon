@@ -30,6 +30,7 @@ public class Main {
 		int b = sc.nextInt();
 		
 		q.func(a, b);
+		sc.close();
 	}
 
 }

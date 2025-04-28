@@ -26,6 +26,7 @@ public class Main {
 		
 		int year = sc.nextInt();
 		System.out.println(q.func(year));
+		sc.close();
 
 	}
 

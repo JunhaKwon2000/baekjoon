@@ -16,6 +16,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int yearNow = sc.nextInt();
 		System.out.println(tw.func(yearNow));
+		sc.close();
 
 	}
 

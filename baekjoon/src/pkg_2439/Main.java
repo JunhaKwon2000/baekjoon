@@ -23,7 +23,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int x = sc.nextInt();
 		q.func(x);
-
+		sc.close();
 	}
 
 }

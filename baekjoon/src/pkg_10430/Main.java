@@ -19,6 +19,7 @@ public class Main {
 		int b = sc.nextInt();
 		int c = sc.nextInt();
 		q.func(a, b, c);
+		sc.close();
 
 	}
 
