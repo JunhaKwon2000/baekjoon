@@ -32,7 +32,7 @@ public class Main {
                         System.out.print(70 / val + 1);
                     }
                     else {
-                        System.out.print("0 ");
+                        System.out.print("0");
                     }
                     System.out.println();
                 }
@@ -63,7 +63,7 @@ public class Main {
                         System.out.print(70 / max + 1);
                     }
                     else {
-                        System.out.print("0 ");
+                        System.out.print("0");
                     }
                     System.out.println();
                 }
