@@ -1,5 +1,4 @@
-package pkg_toy;
-// 14769 - correct
+package pkg_14769;
 
 import java.util.Scanner;
 
