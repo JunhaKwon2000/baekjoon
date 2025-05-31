@@ -1,13 +1,13 @@
-package pkg_toy;
-// 11645 correct!
+package pkg_11645;
 
-import java.util.Scanner;
-import java.util.Set;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Scanner;
+import java.util.Set;
 
 public class Main {
+
     public static void main(String[] args) {
         
         Scanner sc =  new Scanner(System.in);
@@ -29,5 +29,7 @@ public class Main {
         for (int cnt : list) System.out.println(cnt);
         sc.close();
 
+
     }
+
 }
