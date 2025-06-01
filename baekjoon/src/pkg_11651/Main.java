@@ -1,5 +1,4 @@
-package pkg_toy;
-// 11651 correct!
+package pkg_11651;
 
 import java.util.Scanner;
 import java.util.ArrayList;
