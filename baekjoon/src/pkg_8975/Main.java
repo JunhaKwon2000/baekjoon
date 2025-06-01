@@ -1,5 +1,4 @@
-package pkg_toy;
-// 8975 correct!
+package pkg_8975;
 
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -38,3 +37,4 @@ public class Main {
 
     }
 }
+
