@@ -1,10 +1,8 @@
-package pkg_toy;
-// 30802
+package pkg_30802;
 
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
-
 
 public class Main {
     public static void main(String[] args) {
@@ -35,3 +33,4 @@ public class Main {
 
     }
 }
+
