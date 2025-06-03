@@ -1,7 +1,5 @@
 package pkg_toy;
 
-import java.util.EmptyStackException;
-import java.util.NoSuchElementException;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -9,37 +7,8 @@ public class Main {
     public static void main(String[] args) {
         
         Scanner sc =  new Scanner(System.in);
-        int N = sc.nextInt();
-        sc.nextLine();
-
-        Stack<Integer> stack = new Stack<>();
-        for (int i = 0; i < N; i++) {
-            String choice = sc.nextLine();
-            if (choice.contains(" ")) {
-                stack.add(Integer.parseInt(choice.split(" ")[1]));
-            } else if (choice.equals("pop")) {
-                try {
-                    int pop = stack.pop();
-                    System.out.println(pop);
-                } catch (EmptyStackException e) {
-                    System.out.println(-1);
-                }
-            } else if (choice.equals("size")) {
-                System.out.println(stack.size());
-            } else if (choice.equals("empty")) {
-                if (stack.isEmpty()) System.out.println(1);
-                else System.out.println(0);
-            } else if (choice.equals("top")) {
-                try {
-                    System.out.println(stack.lastElement());
-                } catch (NoSuchElementException e) {
-                    System.out.println(-1);
-                }
-            }
-
-        }
-
-
+        
+        
         sc.close();
 
     }
