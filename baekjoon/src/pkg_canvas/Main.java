@@ -1,4 +1,4 @@
-package pkg_toy;
+package pkg_canvas;
 
 import java.util.Scanner;
 
